@@ -6,10 +6,10 @@
       "use": "@vercel/static"
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "/FoodCycle.html"
+      "source": "/(.*)",
+      "destination": "/FoodCycle.html"
     }
   ],
   "headers": [
